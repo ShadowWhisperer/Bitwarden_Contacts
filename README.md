@@ -2,7 +2,11 @@ Bash script that converts a contact CSV file into a json file, for Bitwarden to 
 
     ./convert.sh file.csv
 
-Format this script uses  
+Files saves to: **/tmp/data.json**
+
+CSV format this script uses  
 **Name, Phone, Phone, Phone, Phone, Phone**  
-Will need adjustments for however you plan to use it.  
+  
+You will probably need adjustments, for however you plan to use it.  
+Lines that does not contain data require "null"  
 
